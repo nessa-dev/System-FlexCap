@@ -5,7 +5,7 @@ a capacidade da equipe durante a sprint, já que nem sempre todos estão dispon�
 O FlexCap surgiu justamente para organizar essas informações de forma simples e centralizada. 
 O sistema permite registrar ausências, visualizar feriados internacionais e acompanhar eventos 
 importantes em um calendário acessível para toda a equipe. Ele conta com três níveis de acesso: 
-colaborador, manager e RH — garantindo que cada perfil enxergue exatamente o que precisa.
+colaborador, manager e RH, o que garante que cada perfil enxergue exatamente o que precisa.
 
 Com isso, gestores conseguem avaliar rapidamente como folgas, férias ou feriados podem influenciar 
 o planejamento, entendendo o impacto real na sprint. Já o RH pode manter o calendário sempre atualizado,
