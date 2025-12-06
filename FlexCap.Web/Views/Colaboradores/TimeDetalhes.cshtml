@@ -94,7 +94,7 @@
                                 @statusDisplay
 
                                     @* Mostrar motivo e data apenas se inativo E usuário logado for Manager *@
-                                    @if (dbStatus.Equals("Inativo", StringComparison.OrdinalIgnoreCase) && profile == "Manager" && !string.IsNullOrEmpty(reasonText))
+                                    @if (dbStatus.Equals("Inactive", StringComparison.OrdinalIgnoreCase) && profile == "Manager" && !string.IsNullOrEmpty(reasonText))
                                     {
                                         <span class="fw-normal text-danger">
                                             (@reasonText

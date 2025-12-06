@@ -47,7 +47,7 @@ namespace FlexCap.Web.Controllers
                 TeamName = model.TeamName,
                 Country = model.Country,
                 PhotoUrl = photoUrl,
-                Status = "Ativo",
+                Status = "Active",
                 
             };
         }
@@ -82,7 +82,7 @@ namespace FlexCap.Web.Controllers
             ViewData["Title"] = "Cadastrar Novo Colaborador";
             ViewData["Profile"] = "Rh";
             PopulateViewBags();
-            return View("CadastrarUsuario", new ColaboradorViewModel() { Status = "Ativo" });
+            return View("CadastrarUsuario", new ColaboradorViewModel() { Status = "Active" });
         }
 
 
@@ -142,7 +142,7 @@ namespace FlexCap.Web.Controllers
                 TeamName = model.TeamName,
                 Country = model.Country,
                 PhotoUrl = photoUrl, 
-                Status = model.Status ?? "Ativo",
+                Status = model.Status ?? "Active",
                 InactivityReason = null,
                 EndDate = null
             };
